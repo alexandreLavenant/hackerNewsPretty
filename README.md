@@ -1,6 +1,4 @@
-README
-
-Get the best news of hackernews.com in on a pretty page.
+Get the best news of hackernews.com in a pretty page.
 
 I. Installation
 ---------------
