@@ -1,0 +1,30 @@
+body{
+	background-color: #FF6600;
+	color : #FFF;
+}
+
+.thumbnail{
+	background-color: #F6F6EF;
+}
+
+.article{
+	margin-top: 50px;
+	height: 550px;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.img-circle{
+	margin-top: 20px;
+	-moz-transition:-moz-transform 0.3s ease-in;
+	-webkit-transition:-webkit-transform 0.3s ease-in;
+	-o-transition:-o-transform 0.3s ease-in;
+}
+
+.img-circle:hover{
+	-moz-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
+}
