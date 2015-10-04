@@ -28,14 +28,14 @@
 					<div class="col-md-4 article">
 						<div class="thumbnail">
 							<a href=<%= articles[i].link %> target="_blank">
-								<img class="img-circle" src=images/articles/<%= articles[i].id %>.png alt="image not found">
+								<img class="img-circle" src=images/articles/<%= articles[i].id %>.png alt="image not found" articleid=<%= articles[i].id %>>
 							</a>
 							<div class="caption article-detailed">
 								<h3 class="article-title"><%= articles[i].title %></h3>
 								<p class="article-score inline"><i class="fa fa-star"> <%= articles[i].score %></i></p>
 								<p class="article-date inline"><i class="fa fa-clock-o"> <%= articles[i].date %></i></p>
 								<a href=<%= articles[i].link %> target="_blank">
-									<button class="btn btn-primary btn-block" id=<%= articles[i].id %>> Go to Article <i class="fa fa-angle-double-right"></i></button>
+									<button class="btn btn-primary btn-block" articleid=<%= articles[i].id %>> Go to Article <i class="fa fa-angle-double-right"></i></button>
 								</a>
 							</div>
 						</div>
